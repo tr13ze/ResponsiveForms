@@ -1,0 +1,60 @@
+body {
+    font: 400 14px'Montserrat', sans-serif;
+    color: #99B2B7;
+    background-color: #F3F3F3;
+    margin-top: 50px;
+}
+#form {
+    width: 360px;
+    height: auto;
+    background-color: #FBD6E6;
+    margin: 0 auto;
+    padding: 0px 1%;
+    border-radius: 3px;
+}
+h2 {
+    color: #9E1F63;
+    font: 400 30px'Montserrat', sans-serif;
+    text-align: center;
+    padding-top: 10px;
+    margin: 0px 0px 30px 0px;
+}
+label {
+    font: 400 16px'Montserrat', sans-serif;
+    color: #9E1F63;
+}
+textarea {
+    width: 99%;
+    min-height: 100px;
+    resize: vertical;
+}
+input {
+    width: 99%;
+    height: 25px;
+    margin: 5px 0px 10px 0px;
+}
+input[type=submit] {
+    cursor: pointer;
+    height: 50px;
+    width: 100%;
+    border: none;
+    font: 400 14px'Montserrat', sans-serif;
+    color: #FBD6E6;
+    background-color: #9E1F63;
+    letter-spacing: 2px;
+}
+.antispam {
+    position: absolute;
+    visibility: hidden;
+}
+input, textarea {
+    background-color:#F068A7;
+    font: 400 14px'Montserrat', sans-serif;
+    color: #FBD6E6;
+    border: 1px solid #F068A7;
+    border-radius: 3px;
+}
+::-webkit-input-placeholder {
+    color: #FBD6E6;
+    font-style: italic
+}
