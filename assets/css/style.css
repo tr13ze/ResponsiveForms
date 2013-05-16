@@ -1,3 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+    
 body {
     font: 400 14px'Montserrat', sans-serif;
     color: #99B2B7;
@@ -7,7 +13,7 @@ body {
 #form {
     width: 360px;
     height: auto;
-    background-color: #FBD6E6;
+    /*background-color: #FBD6E6;*/
     margin: 0 auto;
     padding: 0px 1%;
     border-radius: 3px;
@@ -21,11 +27,12 @@ h2 {
 }
 label {
     font: 400 16px'Montserrat', sans-serif;
-    color: #9E1F63;
+    color: #F068A7;
 }
 textarea {
     width: 99%;
     min-height: 100px;
+    
     resize: vertical;
 }
 input {
@@ -48,10 +55,11 @@ input[type=submit] {
     visibility: hidden;
 }
 input, textarea {
-    background-color:#F068A7;
+    /*background-color:#F068A7;*/
+    background-color: #F068A7;
     font: 400 14px'Montserrat', sans-serif;
     color: #FBD6E6;
-    border: 1px solid #F068A7;
+    border: 1px solid #FBD6E6;
     border-radius: 3px;
 }
 ::-webkit-input-placeholder {
