@@ -30,13 +30,12 @@ label {
 }
 textarea {
     width: 99%;
-    min-height: 100px;
-    
+    min-height: 100px;    
     resize: vertical;
 }
 input {
     width: 99%;
-    height: 25px;
+    height: 30px;
     margin: 5px 0px 10px 0px;
 }
 input[type=submit] {
