@@ -13,7 +13,6 @@ body {
 #form {
     width: 360px;
     height: auto;
-    /*background-color: #FBD6E6;*/
     margin: 0 auto;
     padding: 0px 1%;
     border-radius: 3px;
@@ -55,7 +54,6 @@ input[type=submit] {
     visibility: hidden;
 }
 input, textarea {
-    /*background-color:#F068A7;*/
     background-color: #F068A7;
     font: 400 14px'Montserrat', sans-serif;
     color: #FBD6E6;
